@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div th:if="${member.isAdmin}">
+    <a th:href="@{/admin}">관리자페이지</a>
+</div>
+</body>
+</html>
